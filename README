@@ -1,0 +1,5 @@
+This is a simple Cocoa wrapper around Mike Schrag's install wolips script.
+
+The script is embedded and the original version is here:
+
+http://gist.github.com/610081
