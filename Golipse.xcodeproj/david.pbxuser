@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1201, 955}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 45}";
+		};
+	};
+	256AC3D80F4B6AC300CF3369 /* GolipseAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1201, 949}}";
+			sepNavSelRange = "{1170, 0}";
+			sepNavVisRange = "{0, 1500}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* GolipseAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1201, 2717}}";
+			sepNavSelRange = "{2738, 0}";
+			sepNavVisRange = "{750, 2476}";
+		};
+	};
+	256AC3F00F4B6AF500CF3369 /* Golipse_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1201, 955}}";
+			sepNavSelRange = "{139, 0}";
+			sepNavVisRange = "{0, 177}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 639451BF1260D70F0088976C /* Golipse */;
+		activeTarget = 8D1107260486CEB800E47090 /* Golipse */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Golipse */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 639451D21260D7180088976C /* Code sense */;
+		executables = (
+			639451BF1260D70F0088976C /* Golipse */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1023,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 308442345;
+			PBXWorkspaceStateSaveDate = 308442345;
+		};
+		perUserProjectItems = {
+			639E4C84126116B300F18C17 /* PBXTextBookmark */ = 639E4C84126116B300F18C17 /* PBXTextBookmark */;
+			639E4C85126116B300F18C17 /* PBXTextBookmark */ = 639E4C85126116B300F18C17 /* PBXTextBookmark */;
+			639E4C88126116B300F18C17 /* PBXTextBookmark */ = 639E4C88126116B300F18C17 /* PBXTextBookmark */;
+			639E4CDD126155E000F18C17 /* PBXTextBookmark */ = 639E4CDD126155E000F18C17 /* PBXTextBookmark */;
+			639E4CDF126155E000F18C17 /* PBXTextBookmark */ = 639E4CDF126155E000F18C17 /* PBXTextBookmark */;
+			639E4CE0126155E000F18C17 /* PlistBookmark */ = 639E4CE0126155E000F18C17 /* PlistBookmark */;
+			63FCB33B1263624700EBF48B /* PBXBookmark */ = 63FCB33B1263624700EBF48B /* PBXBookmark */;
+			63FCB33C1263624700EBF48B /* PBXTextBookmark */ = 63FCB33C1263624700EBF48B /* PBXTextBookmark */;
+			63FCB33D1263624700EBF48B /* XCBuildMessageTextBookmark */ = 63FCB33D1263624700EBF48B /* XCBuildMessageTextBookmark */;
+			63FCB33E1263624700EBF48B /* PBXTextBookmark */ = 63FCB33E1263624700EBF48B /* PBXTextBookmark */;
+		};
+		sourceControlManager = 639451D11260D7180088976C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	639451BF1260D70F0088976C /* Golipse */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Golipse;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	639451D11260D7180088976C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	639451D21260D7180088976C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	639451E01260D9F10088976C /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1201, 978}}";
+			sepNavSelRange = "{155, 0}";
+			sepNavVisRange = "{0, 202}";
+		};
+	};
+	639E4C241261070C00F18C17 /* GolipseDefinitions.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1201, 955}}";
+			sepNavSelRange = "{187, 0}";
+			sepNavVisRange = "{0, 392}";
+		};
+	};
+	639E4C5312610B0500F18C17 /* go_wolips.sh */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1201, 1183}}";
+			sepNavSelRange = "{11, 0}";
+			sepNavVisRange = "{0, 3163}";
+		};
+	};
+	639E4C84126116B300F18C17 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3F00F4B6AF500CF3369 /* Golipse_Prefix.pch */;
+		name = "Golipse_Prefix.pch: 7";
+		rLen = 0;
+		rLoc = 139;
+		rType = 0;
+		vrLen = 177;
+		vrLoc = 0;
+	};
+	639E4C85126116B300F18C17 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 639451E01260D9F10088976C /* English */;
+		name = "Localizable.strings: 9";
+		rLen = 0;
+		rLoc = 155;
+		rType = 0;
+		vrLen = 202;
+		vrLoc = 0;
+	};
+	639E4C88126116B300F18C17 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 639E4C5312610B0500F18C17 /* go_wolips.sh */;
+		name = "go_wolips.sh: 1";
+		rLen = 0;
+		rLoc = 11;
+		rType = 0;
+		vrLen = 3163;
+		vrLoc = 0;
+	};
+	639E4CDD126155E000F18C17 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 639E4C241261070C00F18C17 /* GolipseDefinitions.h */;
+		name = "GolipseDefinitions.h: 9";
+		rLen = 0;
+		rLoc = 187;
+		rType = 0;
+		vrLen = 392;
+		vrLoc = 0;
+	};
+	639E4CDF126155E000F18C17 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	639E4CE0126155E000F18C17 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Golipse-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Users/david/Code/Clients/WOCommunity/Golipse/Golipse-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	63FCB33B1263624700EBF48B /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 639E4CC71261535300F18C17 /* icon.icns */;
+	};
+	63FCB33C1263624700EBF48B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* GolipseAppDelegate.h */;
+		name = "GolipseAppDelegate.h: 40";
+		rLen = 0;
+		rLoc = 1170;
+		rType = 0;
+		vrLen = 1500;
+		vrLoc = 0;
+	};
+	63FCB33D1263624700EBF48B /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Unterminated argument list invoking macro \"NSLocalizedString\"";
+		fRef = 256AC3D90F4B6AC300CF3369 /* GolipseAppDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 199;
+		rType = 1;
+	};
+	63FCB33E1263624700EBF48B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* GolipseAppDelegate.m */;
+		name = "GolipseAppDelegate.m: 89";
+		rLen = 0;
+		rLoc = 2738;
+		rType = 0;
+		vrLen = 2476;
+		vrLoc = 750;
+	};
+	8D1107260486CEB800E47090 /* Golipse */ = {
+		activeExec = 0;
+		executables = (
+			639451BF1260D70F0088976C /* Golipse */,
+		);
+	};
+}
