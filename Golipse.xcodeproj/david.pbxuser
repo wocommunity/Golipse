@@ -16,7 +16,7 @@
 	};
 	256AC3D90F4B6AC300CF3369 /* GolipseAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1201, 2717}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1201, 2743}}";
 			sepNavSelRange = "{2738, 0}";
 			sepNavVisRange = "{750, 2476}";
 		};
@@ -64,24 +64,64 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 308442345;
-			PBXWorkspaceStateSaveDate = 308442345;
+			PBXPerProjectTemplateStateSaveDate = 308512042;
+			PBXWorkspaceStateSaveDate = 308512042;
 		};
 		perUserProjectItems = {
-			639E4C84126116B300F18C17 /* PBXTextBookmark */ = 639E4C84126116B300F18C17 /* PBXTextBookmark */;
-			639E4C85126116B300F18C17 /* PBXTextBookmark */ = 639E4C85126116B300F18C17 /* PBXTextBookmark */;
-			639E4C88126116B300F18C17 /* PBXTextBookmark */ = 639E4C88126116B300F18C17 /* PBXTextBookmark */;
-			639E4CDD126155E000F18C17 /* PBXTextBookmark */ = 639E4CDD126155E000F18C17 /* PBXTextBookmark */;
-			639E4CDF126155E000F18C17 /* PBXTextBookmark */ = 639E4CDF126155E000F18C17 /* PBXTextBookmark */;
-			639E4CE0126155E000F18C17 /* PlistBookmark */ = 639E4CE0126155E000F18C17 /* PlistBookmark */;
-			63FCB33B1263624700EBF48B /* PBXBookmark */ = 63FCB33B1263624700EBF48B /* PBXBookmark */;
-			63FCB33C1263624700EBF48B /* PBXTextBookmark */ = 63FCB33C1263624700EBF48B /* PBXTextBookmark */;
-			63FCB33D1263624700EBF48B /* XCBuildMessageTextBookmark */ = 63FCB33D1263624700EBF48B /* XCBuildMessageTextBookmark */;
-			63FCB33E1263624700EBF48B /* PBXTextBookmark */ = 63FCB33E1263624700EBF48B /* PBXTextBookmark */;
+			636D9D04126385C900567350 /* PBXTextBookmark */ = 636D9D04126385C900567350 /* PBXTextBookmark */;
+			636D9D05126385C900567350 /* PBXTextBookmark */ = 636D9D05126385C900567350 /* PBXTextBookmark */;
+			636D9D06126385C900567350 /* PBXTextBookmark */ = 636D9D06126385C900567350 /* PBXTextBookmark */;
+			639E4C84126116B300F18C17 = 639E4C84126116B300F18C17 /* PBXTextBookmark */;
+			639E4C85126116B300F18C17 = 639E4C85126116B300F18C17 /* PBXTextBookmark */;
+			639E4C88126116B300F18C17 = 639E4C88126116B300F18C17 /* PBXTextBookmark */;
+			639E4CDD126155E000F18C17 = 639E4CDD126155E000F18C17 /* PBXTextBookmark */;
+			639E4CDF126155E000F18C17 = 639E4CDF126155E000F18C17 /* PBXTextBookmark */;
+			639E4CE0126155E000F18C17 = 639E4CE0126155E000F18C17 /* PlistBookmark */;
+			63FCB33B1263624700EBF48B = 63FCB33B1263624700EBF48B /* PBXBookmark */;
+			63FCB33C1263624700EBF48B = 63FCB33C1263624700EBF48B /* PBXTextBookmark */;
+			63FCB33D1263624700EBF48B = 63FCB33D1263624700EBF48B /* PBXTextBookmark */;
+			63FCB33E1263624700EBF48B = 63FCB33E1263624700EBF48B /* PBXTextBookmark */;
 		};
 		sourceControlManager = 639451D11260D7180088976C /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	636D9D021263853900567350 /* README */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1201, 969}}";
+			sepNavSelRange = "{163, 0}";
+			sepNavVisRange = "{0, 163}";
+		};
+	};
+	636D9D04126385C900567350 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* GolipseAppDelegate.m */;
+		name = "GolipseAppDelegate.m: 89";
+		rLen = 0;
+		rLoc = 2738;
+		rType = 0;
+		vrLen = 2476;
+		vrLoc = 750;
+	};
+	636D9D05126385C900567350 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 636D9D021263853900567350 /* README */;
+		name = "README: 5";
+		rLen = 0;
+		rLoc = 163;
+		rType = 0;
+		vrLen = 163;
+		vrLoc = 0;
+	};
+	636D9D06126385C900567350 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 636D9D021263853900567350 /* README */;
+		name = "README: 5";
+		rLen = 0;
+		rLoc = 163;
+		rType = 0;
+		vrLen = 163;
+		vrLoc = 0;
 	};
 	639451BF1260D70F0088976C /* Golipse */ = {
 		isa = PBXExecutable;
@@ -224,11 +264,10 @@
 		vrLen = 1500;
 		vrLoc = 0;
 	};
-	63FCB33D1263624700EBF48B /* XCBuildMessageTextBookmark */ = {
+	63FCB33D1263624700EBF48B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		comments = "Unterminated argument list invoking macro \"NSLocalizedString\"";
 		fRef = 256AC3D90F4B6AC300CF3369 /* GolipseAppDelegate.m */;
-		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
 		rLoc = 199;
 		rType = 1;
