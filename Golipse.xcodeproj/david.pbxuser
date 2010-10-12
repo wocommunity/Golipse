@@ -84,6 +84,20 @@
 		userBuildSettings = {
 		};
 	};
+	630592871264B25B0090BD88 /* PreferenceWindowController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1201, 966}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 251}";
+		};
+	};
+	630592881264B25B0090BD88 /* PreferenceWindowController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1201, 966}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 245}";
+		};
+	};
 	636D9D021263853900567350 /* README */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1201, 966}}";
@@ -181,9 +195,9 @@
 	};
 	639E4C5312610B0500F18C17 /* go_wolips.sh */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1201, 1183}}";
-			sepNavSelRange = "{11, 0}";
-			sepNavVisRange = "{0, 3163}";
+			sepNavIntBoundsRect = "{{0, 0}, {1201, 1248}}";
+			sepNavSelRange = "{737, 0}";
+			sepNavVisRange = "{0, 2964}";
 		};
 	};
 	639E4C84126116B300F18C17 /* PBXTextBookmark */ = {

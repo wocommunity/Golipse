@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		256AC3DA0F4B6AC300CF3369 /* GolipseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* GolipseAppDelegate.m */; };
+		630592891264B25B0090BD88 /* PreferenceWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 630592881264B25B0090BD88 /* PreferenceWindowController.m */; };
+		6305928B1264B2720090BD88 /* PreferenceWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6305928A1264B2720090BD88 /* PreferenceWindow.xib */; };
 		639451E11260D9F10088976C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 639451DF1260D9F10088976C /* Localizable.strings */; };
 		639E4C5412610B0500F18C17 /* go_wolips.sh in Resources */ = {isa = PBXBuildFile; fileRef = 639E4C5312610B0500F18C17 /* go_wolips.sh */; };
 		639E4CC81261535400F18C17 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 639E4CC71261535300F18C17 /* icon.icns */; };
@@ -28,6 +30,9 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		630592871264B25B0090BD88 /* PreferenceWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceWindowController.h; sourceTree = "<group>"; };
+		630592881264B25B0090BD88 /* PreferenceWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceWindowController.m; sourceTree = "<group>"; };
+		6305928A1264B2720090BD88 /* PreferenceWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreferenceWindow.xib; sourceTree = "<group>"; };
 		636D9D021263853900567350 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		639451E01260D9F10088976C /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
 		639E4C241261070C00F18C17 /* GolipseDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GolipseDefinitions.h; sourceTree = "<group>"; };
@@ -54,6 +59,7 @@
 			children = (
 				256AC3D80F4B6AC300CF3369 /* GolipseAppDelegate.h */,
 				256AC3D90F4B6AC300CF3369 /* GolipseAppDelegate.m */,
+				630592861264B1E70090BD88 /* Preferences */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -129,6 +135,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		630592861264B1E70090BD88 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				630592871264B25B0090BD88 /* PreferenceWindowController.h */,
+				630592881264B25B0090BD88 /* PreferenceWindowController.m */,
+				6305928A1264B2720090BD88 /* PreferenceWindow.xib */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -184,6 +200,7 @@
 				639451E11260D9F10088976C /* Localizable.strings in Resources */,
 				639E4C5412610B0500F18C17 /* go_wolips.sh in Resources */,
 				639E4CC81261535400F18C17 /* icon.icns in Resources */,
+				6305928B1264B2720090BD88 /* PreferenceWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +213,7 @@
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				256AC3DA0F4B6AC300CF3369 /* GolipseAppDelegate.m in Sources */,
+				630592891264B25B0090BD88 /* PreferenceWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -39,6 +39,11 @@
 - (void) appendStringToLog:(NSString *)logSnippet;
 
 #pragma mark -
+#pragma mark Preference Window
+
+- (IBAction) showPreferenceWindow:(id)sender;
+
+#pragma mark -
 #pragma mark Install Location
 
 - (IBAction)chooseInstallLocation:(id)sender;

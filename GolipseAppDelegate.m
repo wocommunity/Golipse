@@ -7,6 +7,7 @@
 //
 
 #import "GolipseAppDelegate.h"
+#import "PreferenceWindowController.h"
 
 @implementation GolipseAppDelegate
 
@@ -59,7 +60,8 @@
 	
 	NSString *launchPath = [[NSBundle mainBundle] pathForResource:@"go_wolips" ofType:@"sh"];
 	NSString *installLocation = [kCurrentInstallLocation stringByAppendingPathComponent:kEclipseName];
-	NSLog(@"Launch Path: %@, %@", launchPath, installLocation);
+	NSString *eclipseURL = kEclipseDownloadURL;
+	NSLog(@"Launch Path: %@, %@, %@", launchPath, installLocation, eclipseURL);
 	self.installTask = [[NSTask alloc] init];
 	self.logPipe = [[NSPipe alloc] init];
 	NSFileHandle *handle = nil;
@@ -67,7 +69,7 @@
 	
 	
 	[self.installTask setLaunchPath:launchPath];
-	[self.installTask setArguments:[NSArray arrayWithObjects:installLocation,nil]];
+	[self.installTask setArguments:[NSArray arrayWithObjects:installLocation, eclipseURL, nil]];
 	[self.installTask setStandardOutput:self.logPipe];
 	[self.installTask setStandardError:self.logPipe];
 	handle = [self.logPipe fileHandleForReading];
@@ -112,6 +114,15 @@
 	[self.logTextView replaceCharactersInRange:theEnd withString:logSnippet]; // append new string to the end
 	theEnd.location+=[logSnippet length]; // the end has moved
 	[self.logTextView scrollRangeToVisible:theEnd];
+}
+
+#pragma mark -
+#pragma mark Preference Window
+
+- (IBAction) showPreferenceWindow:(id)sender;
+{
+	PreferenceWindowController *prefsController = [[PreferenceWindowController alloc] initWithWindowNibName:@"PreferenceWindow"];
+	[prefsController showWindow:[prefsController window]];
 }
 
 #pragma mark -
@@ -174,10 +185,12 @@
 + (void)initialize;
 {
 	NSLog(@"Initializing");
+	NSString *defaultEclipseURL = [[[NSBundle mainBundle] infoDictionary] objectForKey:kDefaultEclipseDownloadURLKey];
     NSMutableDictionary *dictionary = [NSMutableDictionary dictionary];
 	NSArray *paths = NSSearchPathForDirectoriesInDomains (NSDesktopDirectory, NSUserDomainMask, YES);
 	NSString *desktopPath = [paths objectAtIndex:0];
 	[dictionary setObject:desktopPath forKey:kInstallLocationDefaultsKey];
+	[dictionary setObject:defaultEclipseURL forKey:kEclipseDownloadURLDefaultsKey];
     [[NSUserDefaultsController sharedUserDefaultsController] setInitialValues:dictionary];
 	[[NSUserDefaults standardUserDefaults] registerDefaults:dictionary];
 }
