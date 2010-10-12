@@ -14,4 +14,8 @@
 @synthesize eclipseUrlLabel;
 @synthesize eclipseUrl;
 
+- (void) awakeFromNib;
+{
+	self.eclipseUrlLabel.stringValue = NSLocalizedString(@"Eclipse URL:", @"");
+}
 @end
