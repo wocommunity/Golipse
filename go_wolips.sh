@@ -5,15 +5,20 @@ WORKSPACE_MECHANIC_URL=http://wiki.objectstyle.org/confluence/download/attachmen
 WORKSPACE_MECHANIC_FOLDER=~/.eclipse/mechanic
 VERSION=`date +%s`
 
-if [ "$#" != "1" ]; then
-echo "usage: $0 [install folder]"
-exit
+if [ "$#" -lt "1" -o "$#" -gt "2" ]; then
+	echo "usage: $0 [install folder] [(optional) eclipse download url]"
+	exit
 fi
 
 ECLIPSE_ARCHIVE_PATH=/tmp/eclipse_${VERSION}.tar.gz
 P2_PATH=/tmp/p2_${VERSION}
 WORKSPACE_MECHANIC_ARCHIVE_PATH=/tmp/WorkspaceMechanicExamples_${VERSION}.zip
 ECLIPSE_INSTALL_FOLDER=$1
+
+if [ $2 ]; then
+	echo "Setting ECLIPSE_URL to $2"
+	ECLIPSE_URL=$2
+fi
 
 # Grab Eclipse
 if [ ! -e "${ECLIPSE_INSTALL_FOLDER}/Eclipse.app" ]; then
