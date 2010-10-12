@@ -21,7 +21,7 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>2</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>${MACOSX_DEPLOYMENT_TARGET}</string>
 	<key>NSMainNibFile</key>
@@ -30,5 +30,7 @@
 	<string>NSApplication</string>
 	<key>DefaultEclipseDownloadURL</key>
 	<string>http://mirror.cc.vt.edu/pub/eclipse/eclipse/downloads/drops/R-3.6.1-201009090800/eclipse-SDK-3.6.1-macosx-cocoa-x86_64.tar.gz</string>
+	<key>CFBundleDisplayName</key>
+	<string></string>
 </dict>
 </plist>
