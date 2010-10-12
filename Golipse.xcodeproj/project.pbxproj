@@ -59,6 +59,7 @@
 			children = (
 				256AC3D80F4B6AC300CF3369 /* GolipseAppDelegate.h */,
 				256AC3D90F4B6AC300CF3369 /* GolipseAppDelegate.m */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
 				630592861264B1E70090BD88 /* Preferences */,
 			);
 			name = Classes;
@@ -119,7 +120,6 @@
 				639451DF1260D9F10088976C /* Localizable.strings */,
 				8D1107310486CEB800E47090 /* Golipse-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
-				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
 				639E4C5312610B0500F18C17 /* go_wolips.sh */,
 				639E4CC71261535300F18C17 /* icon.icns */,
 			);
