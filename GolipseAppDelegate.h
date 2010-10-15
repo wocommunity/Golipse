@@ -11,6 +11,7 @@
 @interface GolipseAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;
 	NSPopUpButton *installLocationPicker;
+	NSMenuItem *installLocationOtherItem;
 	NSTextField *installLocationLabel;
 	NSButton *installNowButton;
 	NSScrollView *logScrollView;
@@ -23,6 +24,7 @@
 
 @property (assign) IBOutlet NSWindow *window;
 @property (nonatomic, retain) IBOutlet NSPopUpButton *installLocationPicker;
+@property (nonatomic, retain) IBOutlet NSMenuItem *installLocationOtherItem;
 @property (nonatomic, retain) IBOutlet NSTextField *installLocationLabel;
 @property (nonatomic, retain) IBOutlet NSButton *installNowButton;
 @property (nonatomic, retain) IBOutlet NSScrollView *logScrollView;

@@ -56,12 +56,12 @@
 						<object class="NSTextField" id="177246594">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{17, 23}, {80, 17}}</string>
+							<string key="NSFrame">{{17, 23}, {120, 17}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="289360119">
 								<int key="NSCellFlags">68288064</int>
-								<int key="NSCellFlags2">272630784</int>
+								<int key="NSCellFlags2">71304192</int>
 								<string key="NSContents">Eclipse URL:</string>
 								<object class="NSFont" key="NSSupport" id="1020714199">
 									<string key="NSName">LucidaGrande</string>
@@ -92,7 +92,7 @@
 						<object class="NSTextField" id="947693314">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">266</int>
-							<string key="NSFrame">{{102, 20}, {419, 22}}</string>
+							<string key="NSFrame">{{142, 20}, {379, 22}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="945315826">
@@ -129,10 +129,6 @@
 				<string key="NSFrameAutosaveName">GOPreferencesWindow</string>
 			</object>
 			<object class="NSUserDefaultsController" id="444461883">
-				<object class="NSMutableArray" key="NSDeclaredKeys">
-					<bool key="EncodedWithXMLCoder">YES</bool>
-					<string>EclipseDownloadURLDefaultsKey</string>
-				</object>
 				<bool key="NSSharedInstance">YES</bool>
 			</object>
 		</object>
@@ -288,9 +284,9 @@
 				</object>
 				<object class="NSMutableArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<string>{{640, 823}, {541, 60}}</string>
+					<string>{{640, 824}, {541, 60}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{640, 823}, {541, 60}}</string>
+					<string>{{640, 824}, {541, 60}}</string>
 					<integer value="1"/>
 					<string>{196, 240}</string>
 					<string>{{202, 428}, {480, 270}}</string>

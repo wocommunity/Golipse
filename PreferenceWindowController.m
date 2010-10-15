@@ -7,7 +7,7 @@
 //
 
 #import "PreferenceWindowController.h"
-
+#import "NSView-LayoutAdditions.h"
 
 @implementation PreferenceWindowController
 
@@ -16,6 +16,11 @@
 
 - (void) awakeFromNib;
 {
-	self.eclipseUrlLabel.stringValue = NSLocalizedString(@"Eclipse URL:", @"");
+	self.eclipseUrlLabel.stringValue = NSLocalizedString(@"Eclipse URL", @"Eclipse archive download URL");
+	self.window.title = NSLocalizedString(@"Preferences", @"Golipse Preferences Window");
+	
+	[self.eclipseUrlLabel sizeToFit];
+	[self.eclipseUrl moveNextToView:self.eclipseUrlLabel withSpace:5.0 stretch:YES];
+	
 }
 @end

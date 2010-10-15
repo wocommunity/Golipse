@@ -8,11 +8,13 @@
 
 #import "GolipseAppDelegate.h"
 #import "PreferenceWindowController.h"
+#import "NSView-LayoutAdditions.h"
 
 @implementation GolipseAppDelegate
 
 @synthesize window;
 @synthesize installLocationPicker;
+@synthesize installLocationOtherItem;
 @synthesize installLocationLabel;
 @synthesize installNowButton;
 @synthesize logScrollView;
@@ -36,11 +38,15 @@
 {
 	NSLog(@"Awake");
 	[self setupInstallLocationWithPath:kCurrentInstallLocation];
-	[self.installLocationLabel setStringValue:NSLocalizedString(@"Install Location", @"")];
-	[self.installNowButton setTitle:NSLocalizedString(@"Go!", @"")];
+	self.installLocationLabel.stringValue = NSLocalizedString(@"Install Location", @"Eclipse and WOLips install location");
+	self.installLocationOtherItem.title = NSLocalizedString(@"Other", "Choose a different install location");
+	self.installNowButton.title = NSLocalizedString(@"Go!", @"Install Eclipse and WOLips now");
 	[self.logTextView setEditable:NO];
-	[self.logTextView setFont:[NSFont fontWithName:@"courier" size:0.0]];
-	
+	self.logTextView.font = [NSFont fontWithName:@"courier" size:0.0];
+	self.window.title = NSLocalizedString(@"Golipse", @"Golipse main window");
+	[self.installLocationLabel sizeToFit];
+	[self.installLocationPicker moveNextToView:self.installLocationLabel withSpace:5.0 stretch:NO];
+
 	userDidCancel = NO;
 }
 
@@ -56,7 +62,7 @@
 		return;
 	} else
 	userDidCancel = NO;
-	[self.installNowButton setTitle:NSLocalizedString(@"Cancel",@"")];
+	[self.installNowButton setTitle:NSLocalizedString(@"Cancel",@"Cancel the install")];
 	
 	NSString *launchPath = [[NSBundle mainBundle] pathForResource:@"go_wolips" ofType:@"sh"];
 	NSString *installLocation = [kCurrentInstallLocation stringByAppendingPathComponent:kEclipseName];
@@ -82,7 +88,7 @@
 - (void) installTaskDidFinish:(NSNotification *)note;
 {
 	NSLog(@"Did finish: %@", note.userInfo);
-	[self.installNowButton setTitle:NSLocalizedString(@"Go!", @"")];
+	[self.installNowButton setTitle:NSLocalizedString(@"Go!", @"Install Eclipse and WOLips now")];
 	[self.installNowButton setEnabled:YES];
 	self.installTask = nil;
 	if (userDidCancel) 
@@ -138,7 +144,7 @@
 	{
 		[panel setCanCreateDirectories:YES];
 	}
-	[panel setPrompt:NSLocalizedString(@"Choose", @"")];
+	[panel setPrompt:NSLocalizedString(@"Choose", @"Choose a custom install location")];
 	
 	[panel beginSheetForDirectory:kCurrentInstallLocation 
 							 file:nil 
@@ -178,6 +184,7 @@
 	[placeholder setTitle:[[NSFileManager defaultManager] displayNameAtPath:inDLPath]];
 	[placeholder setImage:icon];
 	[self.installLocationPicker selectItemAtIndex:0];
+	[self.installLocationPicker sizeToFit];
 }
 
 #pragma mark -
