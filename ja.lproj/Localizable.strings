@@ -1,0 +1,27 @@
+/* Cancel the install */
+"Cancel" = "キャンセル";
+
+/* Choose a custom install location */
+"Choose" = "選択";
+
+/* Eclipse archive download URL */
+"Eclipse URL" = "Eclipse URL:";
+
+/* Install Eclipse and WOLips now */
+"Go!" = "開始!";
+
+/* Golipse main window */
+"Golipse" = "Golipse";
+
+/* No comment provided by engineer. */
+"Install canceled by user." = "ユーザがインストールをキャンスルしました。";
+
+/* Eclipse and WOLips install location */
+"Install Location" = "インストール・ロケーション:";
+
+/* Choose a different install location */
+"Other" = "ほかに...";
+
+/* Golipse Preferences Window */
+"Preferences" = "環境設定";
+
