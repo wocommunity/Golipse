@@ -31,6 +31,7 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		3A7BE87C1268C48B00D8A6EB /* ja */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = ja; path = /Volumes/Data/Users/ishimoto/WO/GitRebeld/Golipse/ja.lproj/Localizable.strings; sourceTree = "<absolute>"; };
 		630592871264B25B0090BD88 /* PreferenceWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceWindowController.h; sourceTree = "<group>"; };
 		630592881264B25B0090BD88 /* PreferenceWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceWindowController.m; sourceTree = "<group>"; };
 		6305928A1264B2720090BD88 /* PreferenceWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreferenceWindow.xib; sourceTree = "<group>"; };
@@ -185,6 +186,7 @@
 				Japanese,
 				French,
 				German,
+				ja,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* Golipse */;
 			projectDirPath = "";
@@ -246,6 +248,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				639451E01260D9F10088976C /* English */,
+				3A7BE87C1268C48B00D8A6EB /* ja */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
