@@ -64,15 +64,12 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 308855062;
-			PBXWorkspaceStateSaveDate = 308855062;
+			PBXPerProjectTemplateStateSaveDate = 308880694;
+			PBXWorkspaceStateSaveDate = 308880694;
 		};
 		perUserProjectItems = {
 			630592D51264BDD70090BD88 = 630592D51264BDD70090BD88 /* PBXTextBookmark */;
 			630592F11264C11E0090BD88 = 630592F11264C11E0090BD88 /* PlistBookmark */;
-			630592F21264C11E0090BD88 = 630592F21264C11E0090BD88 /* PBXTextBookmark */;
-			630DA4E41268B40F0068C1DF = 630DA4E41268B40F0068C1DF /* PBXTextBookmark */;
-			630DA4EB1268BB850068C1DF = 630DA4EB1268BB850068C1DF /* PBXTextBookmark */;
 			63137D6212665438005277B2 = 63137D6212665438005277B2 /* PBXTextBookmark */;
 			638279BC1268AA7000AB9980 = 638279BC1268AA7000AB9980 /* PBXTextBookmark */;
 			638279F11268AD3C00AB9980 = 638279F11268AD3C00AB9980 /* PBXTextBookmark */;
@@ -81,9 +78,12 @@
 			63827A191268AFF700AB9980 = 63827A191268AFF700AB9980 /* PBXTextBookmark */;
 			639E4C84126116B300F18C17 = 639E4C84126116B300F18C17 /* PBXTextBookmark */;
 			639E4CDF126155E000F18C17 = 639E4CDF126155E000F18C17 /* PBXTextBookmark */;
-			63BC0B121268C11E005A2303 /* PBXTextBookmark */ = 63BC0B121268C11E005A2303 /* PBXTextBookmark */;
+			63BC0B291269250D005A2303 = 63BC0B291269250D005A2303 /* PBXTextBookmark */;
+			63BC0B2E1269252F005A2303 = 63BC0B2E1269252F005A2303 /* PBXTextBookmark */;
 			63E81C691268BC0F00DB0EE4 = 63E81C691268BC0F00DB0EE4 /* PBXTextBookmark */;
 			63FCB33B1263624700EBF48B = 63FCB33B1263624700EBF48B /* PBXBookmark */;
+			63FE99D9126925430010E1C1 /* PBXTextBookmark */ = 63FE99D9126925430010E1C1 /* PBXTextBookmark */;
+			63FE99DA126925430010E1C1 /* PBXTextBookmark */ = 63FE99DA126925430010E1C1 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 639451D11260D7180088976C /* Source Control */;
 		userBuildSettings = {
@@ -123,36 +123,6 @@
 		name = "/Users/david/Code/Clients/WOCommunity/Golipse/Golipse-Info.plist";
 		rLen = 0;
 		rLoc = 9223372036854775808;
-	};
-	630592F21264C11E0090BD88 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 639E4C5312610B0500F18C17 /* go_wolips.sh */;
-		name = "go_wolips.sh: 18";
-		rLen = 68;
-		rLoc = 686;
-		rType = 0;
-		vrLen = 2964;
-		vrLoc = 0;
-	};
-	630DA4E41268B40F0068C1DF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 639451E01260D9F10088976C /* English */;
-		name = "Localizable.strings: 28";
-		rLen = 0;
-		rLoc = 607;
-		rType = 0;
-		vrLen = 607;
-		vrLoc = 0;
-	};
-	630DA4EB1268BB850068C1DF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 256AC3D90F4B6AC300CF3369 /* GolipseAppDelegate.m */;
-		name = "GolipseAppDelegate.m: 147";
-		rLen = 0;
-		rLoc = 4927;
-		rType = 0;
-		vrLen = 1501;
-		vrLoc = 4481;
 	};
 	63137D6212665438005277B2 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -281,9 +251,9 @@
 	};
 	639451E01260D9F10088976C /* English */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1201, 529}}";
-			sepNavSelRange = "{607, 0}";
-			sepNavVisRange = "{0, 607}";
+			sepNavIntBoundsRect = "{{0, 0}, {1201, 505}}";
+			sepNavSelRange = "{594, 0}";
+			sepNavVisRange = "{0, 594}";
 			sepNavWindowFrame = "{{63, 535}, {1417, 878}}";
 		};
 	};
@@ -321,15 +291,25 @@
 		vrLen = 45;
 		vrLoc = 0;
 	};
-	63BC0B121268C11E005A2303 /* PBXTextBookmark */ = {
+	63BC0B291269250D005A2303 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 256AC3D90F4B6AC300CF3369 /* GolipseAppDelegate.m */;
-		name = "GolipseAppDelegate.m: 140";
+		fRef = 639451E01260D9F10088976C /* English */;
+		name = "Localizable.strings: 28";
 		rLen = 0;
-		rLoc = 4653;
+		rLoc = 594;
 		rType = 0;
-		vrLen = 1436;
-		vrLoc = 4481;
+		vrLen = 594;
+		vrLoc = 0;
+	};
+	63BC0B2E1269252F005A2303 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 639451E01260D9F10088976C /* English */;
+		name = "Localizable.strings: 28";
+		rLen = 0;
+		rLoc = 594;
+		rType = 0;
+		vrLen = 594;
+		vrLoc = 0;
 	};
 	63E81C691268BC0F00DB0EE4 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -344,6 +324,26 @@
 	63FCB33B1263624700EBF48B /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = 639E4CC71261535300F18C17 /* icon.icns */;
+	};
+	63FE99D9126925430010E1C1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 639451E01260D9F10088976C /* English */;
+		name = "Localizable.strings: 28";
+		rLen = 0;
+		rLoc = 594;
+		rType = 0;
+		vrLen = 594;
+		vrLoc = 0;
+	};
+	63FE99DA126925430010E1C1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 639451E01260D9F10088976C /* English */;
+		name = "Localizable.strings: 28";
+		rLen = 0;
+		rLoc = 594;
+		rType = 0;
+		vrLen = 594;
+		vrLoc = 0;
 	};
 	8D1107260486CEB800E47090 /* Golipse */ = {
 		activeExec = 0;
