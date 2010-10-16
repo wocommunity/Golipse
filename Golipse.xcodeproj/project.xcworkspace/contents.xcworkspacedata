@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace>
+   <Group
+      name = "Private">
+   </Group>
+   <FileRef
+      location = "self:Golipse.xcodeproj">
+   </FileRef>
+</Workspace>

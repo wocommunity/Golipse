@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		256AC3DA0F4B6AC300CF3369 /* GolipseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* GolipseAppDelegate.m */; };
+		3A48239D1269A19400C43EDC /* go_wolips.sh in Resources */ = {isa = PBXBuildFile; fileRef = 3A48239F1269A19400C43EDC /* go_wolips.sh */; };
 		630592891264B25B0090BD88 /* PreferenceWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 630592881264B25B0090BD88 /* PreferenceWindowController.m */; };
 		6305928B1264B2720090BD88 /* PreferenceWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6305928A1264B2720090BD88 /* PreferenceWindow.xib */; };
 		638279A41268A7F700AB9980 /* NSView-LayoutAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 638279A31268A7F700AB9980 /* NSView-LayoutAdditions.m */; };
 		639451E11260D9F10088976C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 639451DF1260D9F10088976C /* Localizable.strings */; };
-		639E4C5412610B0500F18C17 /* go_wolips.sh in Resources */ = {isa = PBXBuildFile; fileRef = 639E4C5312610B0500F18C17 /* go_wolips.sh */; };
 		639E4CC81261535400F18C17 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 639E4CC71261535300F18C17 /* icon.icns */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -31,6 +31,8 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		3A48239E1269A19400C43EDC /* English */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = English; path = English.lproj/go_wolips.sh; sourceTree = "<group>"; };
+		3A6449941269A276009A1896 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = ja; path = /Volumes/Data/Users/ishimoto/WO/GitRebeld/Golipse/ja.lproj/go_wolips.sh; sourceTree = "<absolute>"; };
 		630592871264B25B0090BD88 /* PreferenceWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceWindowController.h; sourceTree = "<group>"; };
 		630592881264B25B0090BD88 /* PreferenceWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceWindowController.m; sourceTree = "<group>"; };
 		6305928A1264B2720090BD88 /* PreferenceWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreferenceWindow.xib; sourceTree = "<group>"; };
@@ -39,7 +41,6 @@
 		638279A31268A7F700AB9980 /* NSView-LayoutAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView-LayoutAdditions.m"; sourceTree = "<group>"; };
 		639451E01260D9F10088976C /* English */ = {isa = PBXFileReference; fileEncoding = 2483028224; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
 		639E4C241261070C00F18C17 /* GolipseDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GolipseDefinitions.h; sourceTree = "<group>"; };
-		639E4C5312610B0500F18C17 /* go_wolips.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = go_wolips.sh; sourceTree = "<group>"; };
 		639E4CC71261535300F18C17 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		63FE99DF126925EB0010E1C1 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Golipse-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Golipse-Info.plist"; sourceTree = "<group>"; };
@@ -126,7 +127,7 @@
 				639451DF1260D9F10088976C /* Localizable.strings */,
 				8D1107310486CEB800E47090 /* Golipse-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
-				639E4C5312610B0500F18C17 /* go_wolips.sh */,
+				3A48239F1269A19400C43EDC /* go_wolips.sh */,
 				639E4CC71261535300F18C17 /* icon.icns */,
 			);
 			name = Resources;
@@ -205,7 +206,7 @@
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
 				639451E11260D9F10088976C /* Localizable.strings in Resources */,
-				639E4C5412610B0500F18C17 /* go_wolips.sh in Resources */,
+				3A48239D1269A19400C43EDC /* go_wolips.sh in Resources */,
 				639E4CC81261535400F18C17 /* icon.icns in Resources */,
 				6305928B1264B2720090BD88 /* PreferenceWindow.xib in Resources */,
 			);
@@ -242,6 +243,15 @@
 				1DDD58150DA1D0A300B32029 /* English */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		3A48239F1269A19400C43EDC /* go_wolips.sh */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A48239E1269A19400C43EDC /* English */,
+				3A6449941269A276009A1896 /* ja */,
+			);
+			name = go_wolips.sh;
 			sourceTree = "<group>";
 		};
 		639451DF1260D9F10088976C /* Localizable.strings */ = {
