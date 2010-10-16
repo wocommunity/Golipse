@@ -20,7 +20,7 @@
 "Install Location" = "インストール・ロケーション:";
 
 /* Choose a different install location */
-"Other" = "ほかに...";
+"Other" = "他のロケーション...";
 
 /* Golipse Preferences Window */
 "Preferences" = "環境設定";
