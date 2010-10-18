@@ -282,7 +282,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>17</integer>
+									<integer>18</integer>
 									<integer>16</integer>
 									<integer>15</integer>
 									<integer>0</integer>
@@ -310,7 +310,7 @@
 							<real>237</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>734 264 1543 823 0 0 2560 1418 </string>
+						<string>741 300 1543 823 0 0 2560 1418 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -338,7 +338,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>63FE99DA126925430010E1C1</string>
+										<string>63FE99E8126C76F80010E1C1</string>
 										<key>history</key>
 										<array>
 											<string>639E4C84126116B300F18C17</string>
@@ -353,7 +353,11 @@
 											<string>63827A131268AFD000AB9980</string>
 											<string>63827A191268AFF700AB9980</string>
 											<string>63E81C691268BC0F00DB0EE4</string>
-											<string>63FE99D9126925430010E1C1</string>
+											<string>63FE99E0126C76F80010E1C1</string>
+											<string>63FE99E1126C76F80010E1C1</string>
+											<string>63FE99E3126C76F80010E1C1</string>
+											<string>63FE99E5126C76F80010E1C1</string>
+											<string>63FE99E7126C76F80010E1C1</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -367,7 +371,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1262, 537}}</string>
 								<key>RubberWindowFrame</key>
-								<string>734 264 1543 823 0 0 2560 1418 </string>
+								<string>741 300 1543 823 0 0 2560 1418 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -387,7 +391,7 @@
 								<key>Frame</key>
 								<string>{{0, 542}, {1262, 240}}</string>
 								<key>RubberWindowFrame</key>
-								<string>734 264 1543 823 0 0 2560 1418 </string>
+								<string>741 300 1543 823 0 0 2560 1418 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -555,7 +559,7 @@
 		<string>/Users/david/Code/Clients/WOCommunity/Golipse/Golipse.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>734 264 1543 823 0 0 2560 1418 </string>
+	<string>741 300 1543 823 0 0 2560 1418 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
