@@ -63,6 +63,7 @@ http://www.zeroturnaround.com/update-site,\
 http://m2eclipse.sonatype.org/sites/m2e,\
 http://webobjects.mdimension.com/hudson/job/WOLips36Current/lastSuccessfulBuild/artifact/site,\
 http://workspacemechanic.eclipselabs.org.codespot.com/hg.update/mechanic,\
+http://download.eclipse.org/technology/subversive/0.7/update-site,\
 http://community.polarion.com/projects/subversive/download/eclipse/2.0/update-site\
  \
 org.eclipse.team.svn.resource.ignore.rules.jdt.feature.group,\

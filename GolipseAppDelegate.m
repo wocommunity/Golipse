@@ -65,9 +65,10 @@
 	[self.installNowButton setTitle:NSLocalizedString(@"Cancel",@"Cancel the install")];
 	
 	NSString *launchPath = [[NSBundle mainBundle] pathForResource:@"go_wolips" ofType:@"sh"];
+	NSLog(@"Script path: %@", launchPath);
 	NSString *installLocation = [kCurrentInstallLocation stringByAppendingPathComponent:kEclipseName];
 	NSString *eclipseURL = kEclipseDownloadURL;
-	NSLog(@"Launch Path: %@, %@, %@", launchPath, installLocation, eclipseURL);
+	NSLog(@"Launch Path: %@ %@ %@", launchPath, installLocation, eclipseURL);
 	self.installTask = [[NSTask alloc] init];
 	self.logPipe = [[NSPipe alloc] init];
 	NSFileHandle *handle = nil;
