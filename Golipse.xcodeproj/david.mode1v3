@@ -232,6 +232,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -281,8 +283,6 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>21</integer>
-									<integer>15</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -308,7 +308,7 @@
 							<real>237</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>384 203 1543 823 0 0 2560 1418 </string>
+						<string>500 360 1543 823 0 0 2560 1418 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -319,8 +319,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -338,7 +336,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>63EB4522135C80EB00077F95</string>
+										<string>63EB452D135C878800077F95</string>
 										<key>history</key>
 										<array>
 											<string>639E4C84126116B300F18C17</string>
@@ -370,7 +368,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1262, 480}}</string>
 								<key>RubberWindowFrame</key>
-								<string>384 203 1543 823 0 0 2560 1418 </string>
+								<string>500 360 1543 823 0 0 2560 1418 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -390,7 +388,7 @@
 								<key>Frame</key>
 								<string>{{0, 485}, {1262, 297}}</string>
 								<key>RubberWindowFrame</key>
-								<string>384 203 1543 823 0 0 2560 1418 </string>
+								<string>500 360 1543 823 0 0 2560 1418 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -554,16 +552,15 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>63EB4520135C7B6600077F95</string>
 		<string>63EB4518135C756F00077F95</string>
 		<string>63EB4519135C756F00077F95</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>639451CF1260D7180088976C</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/david/Code/Clients/WOCommunity/Golipse/Golipse.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>384 203 1543 823 0 0 2560 1418 </string>
+	<string>500 360 1543 823 0 0 2560 1418 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -934,7 +931,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
