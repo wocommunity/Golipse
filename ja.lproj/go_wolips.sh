@@ -121,7 +121,9 @@ org.eclipse.babel.nls_webtools.sourceediting_ja.feature.group,\
 org.eclipse.babel.nls_webtools.webservices_ja.feature.group,\
 org.polarion.eclipse.team.svn.connector.javahl16.feature.group,\
 org.polarion.eclipse.team.svn.connector.svnkit16.feature.group,\
-org.polarion.eclipse.team.svn.connector.feature.group
+org.polarion.eclipse.team.svn.connector.feature.group,\
+org.eclipse.egit.feature.group,\
+org.eclipse.jgit.feature.group
 
 echo "Cleaning up ..."
 rm "${P2_PATH}"
