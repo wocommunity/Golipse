@@ -1,6 +1,6 @@
 #!/bin/bash
 ECLIPSE_URL=http://mirror.cc.vt.edu/pub/eclipse/eclipse/downloads/drops/R-3.6.1-201009090800/eclipse-SDK-3.6.1-macosx-cocoa-x86_64.tar.gz
-P2_URL=https://gist.github.com/raw/609891/p2
+P2_URL=https://raw.github.com/gist/609891/p2
 WORKSPACE_MECHANIC_URL=http://wiki.objectstyle.org/confluence/download/attachments/8225785/WorkspaceMechanicExamples.zip
 WORKSPACE_MECHANIC_FOLDER=~/.eclipse/mechanic
 VERSION=`date +%s`
