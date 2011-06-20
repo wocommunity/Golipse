@@ -48,7 +48,7 @@ fi
 
 # Grab the p2 script
 echo "Downloading the Eclipse Plugin installer ..."
-curl ${P2_URL} -o "${P2_PATH}"
+curl -L ${P2_URL} -o "${P2_PATH}"
 chmod +x "${P2_PATH}"
 
 # Install Plugins
