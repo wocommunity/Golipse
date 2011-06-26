@@ -61,7 +61,7 @@ http://webobjects.mdimension.com/jadclipse/3.6,\
 http://webobjects.mdimension.com/jprofiler6,\
 http://www.zeroturnaround.com/update-site,\
 http://m2eclipse.sonatype.org/sites/m2e,\
-http://webobjects.mdimension.com/hudson/job/WOLips36Current/lastSuccessfulBuild/artifact/site,\
+http://webobjects.mdimension.com/hudson/job/WOLips36Stable/lastSuccessfulBuild/artifact/site,\
 http://workspacemechanic.eclipselabs.org.codespot.com/hg.update/mechanic,\
 http://download.eclipse.org/technology/subversive/0.7/update-site,\
 http://community.polarion.com/projects/subversive/download/eclipse/2.0/update-site\
