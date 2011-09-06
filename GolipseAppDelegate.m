@@ -42,7 +42,7 @@
 	self.installLocationOtherItem.title = NSLocalizedString(@"Other", "Choose a different install location");
 	self.installNowButton.title = NSLocalizedString(@"Go!", @"Install Eclipse and WOLips now");
 	[self.logTextView setEditable:NO];
-	self.logTextView.font = [NSFont fontWithName:@"courier" size:0.0];
+	self.logTextView.font = [NSFont fontWithName:@"Courier" size:0.0];
 	self.window.title = NSLocalizedString(@"Golipse", @"Golipse main window");
 	[self.installLocationLabel sizeToFit];
 	[self.installLocationPicker moveNextToView:self.installLocationLabel withSpace:5.0 stretch:NO];
