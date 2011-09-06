@@ -1,1 +1,1 @@
-/Developer/Tools/agvtool next-version -all
+/Users/david/bin/agvtool next-version -all
