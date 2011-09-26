@@ -62,7 +62,7 @@ http://webobjects.mdimension.com/jprofiler6,\
 http://www.zeroturnaround.com/update-site,\
 http://m2eclipse.sonatype.org/sites/m2e,\
 http://webobjects.mdimension.com/hudson/job/WOLips36Stable/lastSuccessfulBuild/artifact/site,\
-http://workspacemechanic.eclipselabs.org.codespot.com/hg.update/mechanic,\
+http://workspacemechanic.eclipselabs.org.codespot.com/git.update/mechanic/,\
 http://www.bastian-bergerhoff.com/eclipse/features,\
 http://download.macromedia.com/pub/labs/jseclipse/autoinstall/site.xml,\
 http://download.eclipse.org/technology/babel/update-site/R0.8.0/helios,\
