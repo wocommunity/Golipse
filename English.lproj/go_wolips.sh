@@ -1,5 +1,5 @@
 #!/bin/bash
-ECLIPSE_URL=http://mirror.cc.vt.edu/pub/eclipse/eclipse/downloads/drops/R-3.7-201106131736/eclipse-SDK-3.7-macosx-cocoa-x86_64.tar.gz
+ECLIPSE_URL=http://mirror.cc.vt.edu/pub/eclipse/eclipse/downloads/drops/R-3.7.1-201109091335/eclipse-SDK-3.7.1-macosx-cocoa-x86_64.tar.gz
 P2_URL=https://raw.github.com/gist/609891/p2
 WORKSPACE_MECHANIC_URL=http://wiki.objectstyle.org/confluence/download/attachments/8225785/WorkspaceMechanicExamples.zip
 WORKSPACE_MECHANIC_FOLDER=~/.eclipse/mechanic
@@ -62,7 +62,7 @@ http://webobjects.mdimension.com/jprofiler6,\
 http://www.zeroturnaround.com/update-site,\
 http://m2eclipse.sonatype.org/sites/m2e,\
 http://webobjects.mdimension.com/hudson/job/WOLips37Current/lastSuccessfulBuild/artifact/site,\
-http://workspacemechanic.eclipselabs.org.codespot.com/hg.update/mechanic,\
+http://workspacemechanic.eclipselabs.org.codespot.com/git.update/mechanic,\
 http://download.eclipse.org/technology/subversive/0.7/update-site,\
 http://community.polarion.com/projects/subversive/download/eclipse/2.0/update-site\
  \
