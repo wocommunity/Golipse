@@ -9,8 +9,8 @@
 #define kInstallLocationDefaultsKey		@"InstallLocationDefaultsKey"
 #define kEclipseDownloadURLDefaultsKey	@"EclipseDownloadURLDefaultsKey"
 
-#define kCurrentInstallLocation 		[[[NSUserDefaultsController sharedUserDefaultsController] values] valueForKey:kInstallLocationDefaultsKey]
-#define kEclipseDownloadURL				[[[NSUserDefaultsController sharedUserDefaultsController] values] valueForKey:kEclipseDownloadURLDefaultsKey]
+#define kCurrentInstallLocation 		[[NSUserDefaults standardUserDefaults] valueForKey:kInstallLocationDefaultsKey]
+#define kEclipseDownloadURL				[[NSUserDefaults standardUserDefaults] valueForKey:kEclipseDownloadURLDefaultsKey]
 
 #define kDefaultEclipseDownloadURLKey	@"DefaultEclipseDownloadURL"
 #define kEclipseName					@"eclipse"
