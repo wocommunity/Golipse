@@ -25,3 +25,5 @@
 /* Golipse Preferences Window */
 "Preferences" = "環境設定";
 
+/* Reset URL Button Label */
+"Reset" = "Reset";

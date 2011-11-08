@@ -13,10 +13,14 @@
 
 	NSTextField *eclipseUrlLabel;
 	NSTextField *eclipseUrl;
+	NSButton *resetButton;
 	
 }
 
 @property (nonatomic, retain) IBOutlet NSTextField *eclipseUrlLabel;
 @property (nonatomic, retain) IBOutlet NSTextField *eclipseUrl;
+@property (nonatomic, retain) IBOutlet NSButton *resetButton;
+
+- (IBAction) resetURL:(id)sender;
 
 @end

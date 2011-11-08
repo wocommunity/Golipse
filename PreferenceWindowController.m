@@ -13,6 +13,7 @@
 
 @synthesize eclipseUrlLabel;
 @synthesize eclipseUrl;
+@synthesize resetButton;
 
 - (void) awakeFromNib;
 {
@@ -22,5 +23,13 @@
 	[self.eclipseUrlLabel sizeToFit];
 	[self.eclipseUrl moveNextToView:self.eclipseUrlLabel withSpace:5.0 stretch:YES];
 	
+	self.resetButton.title = NSLocalizedString(@"Reset", @"Reset URL Button Label");
+	
 }
+
+- (IBAction) resetURL:(id)sender;
+{
+	[[NSUserDefaults standardUserDefaults] removeObjectForKey:kEclipseDownloadURLDefaultsKey];
+}
+
 @end
