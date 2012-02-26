@@ -29,7 +29,7 @@
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>DefaultEclipseDownloadURL</key>
-	<string>http://mirror.cc.vt.edu/pub/eclipse/eclipse/downloads/drops/R-3.7.1-201109091335/eclipse-SDK-3.7.1-macosx-cocoa-x86_64.tar.gz</string>
+	<string>http://mirror.cc.vt.edu/pub/eclipse/eclipse/downloads/drops/R-3.7.2-201202080800/eclipse-SDK-3.7.2-macosx-cocoa-x86_64.tar.gz</string>
 	<key>CFBundleDisplayName</key>
 	<string></string>
 </dict>
