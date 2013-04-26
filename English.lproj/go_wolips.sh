@@ -15,6 +15,11 @@ P2_PATH=/tmp/p2_${VERSION}
 WORKSPACE_MECHANIC_ARCHIVE_PATH=/tmp/WorkspaceMechanicExamples_${VERSION}.zip
 ECLIPSE_INSTALL_FOLDER=$1
 
+if [ "${ECLIPSE_INSTALL_FOLDER}" = "." ]; then
+	echo "setting install dir to the current directory"
+	ECLIPSE_INSTALL_FOLDER=`pwd`
+fi
+
 if [ $2 ]; then
 	echo "Setting ECLIPSE_URL to $2"
 	ECLIPSE_URL=$2
