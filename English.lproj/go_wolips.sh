@@ -1,5 +1,5 @@
 #!/bin/bash
-ECLIPSE_URL=http://mirror.cc.vt.edu/pub/eclipse/eclipse/downloads/drops/R-3.7.2-201202080800/eclipse-SDK-3.7.2-macosx-cocoa-x86_64.tar.gz
+ECLIPSE_URL=http://ftp.osuosl.org/pub/eclipse/eclipse/downloads/drops/R-3.8.2-201301310800/eclipse-SDK-3.8.2-macosx-cocoa-x86_64.tar.gz
 P2_URL=https://raw.github.com/gist/609891/p2
 WORKSPACE_MECHANIC_URL=http://wocommunity.org/documents/tools/WorkspaceMechanicExamples.zip
 WORKSPACE_MECHANIC_FOLDER=~/.eclipse/mechanic
@@ -55,33 +55,33 @@ chmod +x "${P2_PATH}"
 echo "Downloading and Installing the recommended Eclipse plugins ..."
 "${P2_PATH}" "${ECLIPSE_INSTALL_FOLDER}"\
  \
-http://download.eclipse.org/releases/helios,\
-http://dist.springsource.org/release/GRECLIPSE/e3.6,\
+http://download.eclipse.org/releases/juno,\
+http://dist.springsource.org/release/GRECLIPSE/e4.2,\
 http://wocommunity.org/documents/tools/jadclipse/3.6,\
 http://wocommunity.org/documents/tools/jprofiler6,\
 http://www.zeroturnaround.com/update-site,\
-http://m2eclipse.sonatype.org/sites/m2e,\
+http://download.eclipse.org/technology/m2e/releases,\
 http://wocommunity.org/wolips/3.7/stable,\
 http://workspacemechanic.eclipselabs.org.codespot.com/git.update/mechanic,\
-http://download.eclipse.org/technology/subversive/0.7/update-site,\
+http://download.eclipse.org/technology/subversive/1.0/update-site,\
+http://community.polarion.com/projects/subversive/download/eclipse/3.0/juno-site,\
+http://download.eclipse.org/tools/buckminster/updates-4.2,\
 http://community.polarion.com/projects/subversive/download/eclipse/2.0/update-site\
  \
 org.eclipse.team.svn.resource.ignore.rules.jdt.feature.group,\
-org.eclipse.buckminster.subversive.feature.feature.group,\
 org.eclipse.mylyn_feature.feature.group,\
 net.sf.jadclipse.feature.group,\
 com.jprofiler.integrations.eclipse.feature.group,\
 org.zeroturnaround.eclipse.feature.feature.group,\
-org.zeroturnaround.eclipse.debug.feature.feature.group,\
-org.maven.ide.eclipse.feature.feature.group,\
 org.objectstyle.wolips.feature.feature.group,\
 org.objectstyle.wolips.goodies.feature.feature.group,\
 org.objectstyle.wolips.jprofiler.feature.feature.group,\
 org.objectstyle.wolips.jrebel.feature.feature.group,\
 com.google.eclipse.mechanic.feature.group,\
+org.eclipse.team.svn.feature.group,\
+org.polarion.eclipse.team.svn.connector.feature.group,\
 org.polarion.eclipse.team.svn.connector.javahl16.feature.group,\
 org.polarion.eclipse.team.svn.connector.svnkit16.feature.group,\
-org.polarion.eclipse.team.svn.connector.feature.group,\
 org.eclipse.egit.feature.group,\
 org.eclipse.jgit.feature.group
 
@@ -94,5 +94,3 @@ fi
 
 echo "You should be good to go. Eclipse is installed in '${ECLIPSE_INSTALL_FOLDER}'."
 open "${ECLIPSE_INSTALL_FOLDER}"
-
-
