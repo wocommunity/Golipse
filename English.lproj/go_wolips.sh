@@ -1,9 +1,10 @@
 #!/bin/bash
-ECLIPSE_URL=http://ftp.osuosl.org/pub/eclipse/eclipse/downloads/drops/R-3.8.2-201301310800/eclipse-SDK-3.8.2-macosx-cocoa-x86_64.tar.gz
-P2_URL=https://raw.github.com/gist/609891/p2
+ECLIPSE_URL=http://archive.eclipse.org/eclipse/downloads/drops/R-3.8.2-201301310800/eclipse-SDK-3.8.2-macosx-cocoa-x86_64.tar.gz
+#P2_URL=https://raw.github.com/gist/609891/p2
 WORKSPACE_MECHANIC_URL=http://wocommunity.org/documents/tools/WorkspaceMechanicExamples.zip
 WORKSPACE_MECHANIC_FOLDER=~/.eclipse/mechanic
 VERSION=`date +%s`
+WORKING_DIR=`pwd`
 
 if [ "$#" -lt "1" -o "$#" -gt "2" ]; then
 	echo "usage: $0 [install folder] [(optional) eclipse download url]"
@@ -11,7 +12,7 @@ if [ "$#" -lt "1" -o "$#" -gt "2" ]; then
 fi
 
 ECLIPSE_ARCHIVE_PATH=/tmp/eclipse_${VERSION}.tar.gz
-P2_PATH=/tmp/p2_${VERSION}
+P2_PATH=${WORKING_DIR}/p2
 WORKSPACE_MECHANIC_ARCHIVE_PATH=/tmp/WorkspaceMechanicExamples_${VERSION}.zip
 ECLIPSE_INSTALL_FOLDER=$1
 
@@ -51,10 +52,11 @@ if [ ! -e "${WORKSPACE_MECHANIC_FOLDER}" ]; then
         rm "${WORKSPACE_MECHANIC_ARCHIVE_PATH}"
 fi
 
-# Grab the p2 script
-echo "Downloading the Eclipse Plugin installer ..."
-curl -L ${P2_URL} -o "${P2_PATH}"
-chmod +x "${P2_PATH}"
+# Grab the p2 script - not necessary anymore since it is now embedded in the Golipse package
+# if you run this script manually, you should put the p2 script in the same directory
+#echo "Downloading the Eclipse Plugin installer ..."
+#curl -L ${P2_URL} -o "${P2_PATH}"
+#chmod +x "${P2_PATH}"
 
 # Install Plugins
 echo "Downloading and Installing the recommended Eclipse plugins ..."
@@ -91,7 +93,7 @@ org.eclipse.egit.feature.group,\
 org.eclipse.jgit.feature.group
 
 echo "Cleaning up ..."
-rm "${P2_PATH}"
+#rm "${P2_PATH}"
 
 if [ -e "${ECLIPSE_ARCHIVE_PATH}" ]; then
         rm "${ECLIPSE_ARCHIVE_PATH}"
