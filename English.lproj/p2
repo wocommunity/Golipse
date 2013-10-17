@@ -1,0 +1,28 @@
+#!/bin/bash
+ECLIPSE_HOME=$1
+ECLIPSE_EXEC=$ECLIPSE_HOME/eclipse
+ARGS="-nosplash -application org.eclipse.equinox.p2.director -d "$ECLIPSE_HOME" -p SDKProfile -profileproperties org.eclipse.update.install.features=true -followReferences"
+
+if [[ "$#" -lt "2" ]] || [[ "$#" -gt "3" ]]; then
+echo "usage: $0 [eclipse folder] [repo] <id>"
+exit
+fi
+
+if [ ! -d "$ECLIPSE_HOME" ]; then
+echo "The path '$ECLIPSE_HOME' does not point to a folder."
+exit
+fi
+
+if [ ! -x "$ECLIPSE_EXEC" ]; then
+echo "The path '$ECLIPSE_EXEC' does not exist or is not executable."
+exit
+fi
+
+if [ "$#" = "2" ]; then
+"$ECLIPSE_EXEC" $ARGS -r $2 -l | grep ".feature.group"
+elif [ "$#" = "3" ]; then
+"$ECLIPSE_EXEC" $ARGS -r $2 -i $3
+else
+echo "usage: $0 [eclipse folder] [repo] <id>"
+exit
+fi
